@@ -1,0 +1,19 @@
+/* styles.css */
+/* Center the loading overlay */
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.8);
+    z-index: 9999;
+    display: none;
+}
+#loading-overlay .spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
